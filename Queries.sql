@@ -1,5 +1,5 @@
- create database insurece;
- use insurece;
+ create database insurance;
+ use insurance;
  create table person(driver_id varchar(10),name varchar(10),adress varchar(10));
  create table car(reg_no varchar(10),model varchar(10),year int);
  create table acident(reprt_no int,acc_date date,location varchar(10));
